@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: -55px;
+}
+
+.searchInput {
+  width: 250px;
+  border: none;
+  outline: none;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.searchInput::placeholder {
+  text-align: center;
+}
+
+.searchBtn {
+  width: 80px;
+  padding: 3px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4682a9;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
